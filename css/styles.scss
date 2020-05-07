@@ -1,0 +1,205 @@
+---
+---
+
+@font-face {		
+    font-family: 'Financier Text';			
+    src: url('/fonts/financier-text-web-regular.woff') format('woff'),
+         url('/fonts/financier-text-web-regular.woff2') format('woff2'),
+         url('/fonts/financier-text-web-regular.eot') format('eot');
+    font-weight: 400;		
+    font-style: normal;		
+}
+
+@font-face {		
+    font-family: 'Financier Text';			
+    src: url('/fonts/financier-text-web-regular-italic.woff') format('woff'),
+         url('/fonts/financier-text-web-regular-italic.woff2') format('woff2'),
+         url('/fonts/financier-text-web-regular-italic.eot') format('eot');
+    font-weight: 400;		
+    font-style: italic;		
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, :root {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Financier Text", serif;
+    font-variant-ligatures: normal;
+    font-size: 1rem;
+    color: #1f2942;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 1.5rem;
+    padding-top: 12rem;
+}
+
+.wrap {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+$medium-breakpoint: 800px;
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+}
+  
+@for $i from 1 through 12 {
+    .grid__col--#{$i}-of-12 {
+        grid-column-end: span $i;
+    }
+}
+  
+@media (min-width: #{$medium-breakpoint}) {
+    @for $i from 1 through 12 {
+        .grid__col--#{$i}-of-12\@m {
+            grid-column-end: span $i;
+        }
+    }
+}
+  
+@for $i from 1 through 11 {
+    .grid__col--offset-#{$i}-of-12 {
+        grid-column-start: $i + 1;
+    }
+}
+  
+@media (min-width: #{$medium-breakpoint}) {
+    @for $i from 1 through 11 {
+        .grid__col--offset-#{$i}-of-12\@m {
+        grid-column-start: $i + 1;
+        }
+    }
+}
+
+h1, h2, h3, p, blockquote, span.reading-time {
+    font-size: 1.2rem;
+    @media (min-width: #{$medium-breakpoint}) {
+        font-size: 1.4rem;
+    }
+}
+
+ul, ol {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+}
+
+h2, h3 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    color: orangered;
+}
+
+h2.subtitle {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+span.reading-time {
+    line-height: 1.4;
+    display: inline-block;
+    color: slategray;
+    margin-bottom: 4rem;
+}
+
+p {
+    line-height: 1.4;
+
+    + p {
+        text-indent: 2rem;
+    }
+}
+
+ul, ol {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    list-style-position: inside;
+    @media (min-width: #{$medium-breakpoint}) {
+        list-style-position: outside;
+        padding-left: 4rem;
+        padding-right: 6rem;
+    }
+}
+
+li {
+    line-height: 1.4;
+    margin-bottom: .5rem;
+}
+
+a {
+    color: inherit;
+}
+
+blockquote {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    border-left: 2px solid gainsboro;
+    font-style: italic;
+    @media (min-width: #{$medium-breakpoint}) {
+        margin-left: calc(-2rem - 2px);
+        padding-right: 4rem;
+    }
+}
+
+hr {
+    border: none;
+    width: 8px;
+    height: 8px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    margin: 2rem auto;
+}
+
+img {
+    width: 100%;
+    @media (min-width: #{$medium-breakpoint}) {
+        width: 150%;
+        margin-left: -25%;
+    }
+}
+
+figure {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+figcaption {
+    font-size: 1.2rem;
+    color: slategray;
+    margin-top: .5rem;
+}
+
+
+p.date {
+    margin-top: 2rem;
+    text-indent: 0;
+}
+
+.footnotes{
+    color: slategray;
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    a {
+        font-size: .8rem;
+    }
+} 
