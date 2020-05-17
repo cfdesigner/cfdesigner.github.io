@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Book collecting
-subtitle: The value of books unread
+subtitle: The value of our books left unread
 ---
 I buy a lot of books. People often tell me that I'll never read as many books as I buy. The curious thing is the tone with which it's often said—it suggests that doing so is a bad thing, and that I should buy fewer books and finish more of those that I buy.
 
