@@ -185,7 +185,17 @@ li {
 }
 
 a {
-    color: inherit;
+    color: #0a1226;
+    text-decoration: none;
+    font-variant: all-small-caps;
+    padding: 0 .25rem .1rem;
+    margin: 0 -.25rem -.1rem;
+    border-radius: 4px;
+    transition: background-color .3s ease;
+}
+
+a:hover {
+    background-color: powderblue;
 }
 
 blockquote {
