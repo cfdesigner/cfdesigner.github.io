@@ -10,13 +10,7 @@ There exist a great many other things that I could add to this list, but when cr
 1. [Discount direct applications](#discount-direct-applications)
 2. [Reach out to lots of people](#reach-out-to-lots-of-people)
 3. [You don't need to have a degree](#you-dont-need-to-have-a-degree)
-4. [Idols are rarely very helpful](#idols-are-very-rarely-helpful)
-5. [Design for business value](#design-for-business-value)
-6. [Learn to communicate well](#learn-to-communicate-well)
-7. [Stop using design jargon](#stop-using-design-jargon)
-8. [Learn to critique well](#learn-to-critique-well)
-9. [Tools don't matter much](#tools-dont-matter-much)
-10. [Titles do not equal influence](#titles-do-not-equal-influence)
+4. [Idols are rarely very helpful](#idols-are-rarely-very-helpful)
 
 ## Discount direct applications
 Many of you will start applying for jobs by 1: searching job boards like e.g. Indeed, Monster, and LinkedIn, 2: applying for somewhere between 1 and _n_ jobs, 3: expecting to interview for some fraction of those applied for, and 4: expecting some smaller fraction of those you interview with to send you an offer letter. This process takes a lot of time and emotional energy and rarely produces good results.
@@ -96,45 +90,3 @@ On that point, creativity requires divergent thinking. It requires you to get un
 All of the above said, _learning_ from folks is great. Learning about their history and background. Their struggles and successes. Their life and family. To do this (assuming they're not prolific and very personal writers) you'll very likely need to speak with them. In my experience, folks are significantly less likely to reach out to people who they consider to be _much better than them_. When I've heard people wax lyrical about this or that person on the internet and subsequently suggested that they might reach out to the person they clearly seem to admire, many say something like "why would that person want to speak to me?". Well, precisely because you're a human that has asked a (hopefully thoughtful) question. Also because folks love speaking about themselves and what they do (mostly because they like to give back, sometimes because it simply feels good, which is fine).
 
 You are good at what you do. You're getting better every day. People, if they don't already, will very much look up to you. Celebrate the work of great people, but don't allow their work to make yours feel lesser by comparison. They don't want that, and they very likely would want you to succeed, and to have fun, and to be happy. All of us have hangups and feel bad about our work—sometimes from time to time, sometimes most days—but the important bit is that we're all trying, and we're all learning. Take the time to learn from other folks, but avoid having lots of idols. Take inspiration from your friends, and your family, and your community. Take inspiration from your own experiences, too—they're unique and have got you to where you are today. They're very likely to take you much further, too.
-
-## Design for business value
-- Work to increase usage and reduce churn
-- Frame your work with business outcomes
-- It's as much facilitation as deliverables
-- Be as close as possible to profit centres
-- Report on the business outcome you create
-
-## Learn to communicate well
-- First impression matters more than you think
-- You'll get more people on board with ideas
-- Most of your job is communicating ideas well
-- Fewer words that create more impact is key
-- It helps you do literally everything else better
-
-## Stop using design jargon
-- People do not care about things like sprints
-- People care about their personal outcomes
-- You don't look smart for knowing more things
-- Create a space for it with people who care
-- Most things you read should not be design
-
-## Learn to critique well
-- Critique is about achieving good outcomes
-- Critique is not a status update for your team
-- Critique is not for fun designer banter
-- Invite people that you don't want to invite
-- Actually follow up on the feedback given
-
-## Tools don't matter much
-- Tools shouldn't alter your chosen solution
-- Tools change often and not usually by much
-- Your tools don't always create final work
-- Tools can become a crutch or distraction
-- Match the tools to the stage of the work
-
-## Titles do not equal influence
-- Titles don't describe what you do very well
-- Titles are sometimes used in lieu of comp.
-- Titles can artificially limit your impact
-- Titles matter less the more senior you get
-- You can choose whatever title you please
