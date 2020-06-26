@@ -279,4 +279,24 @@ p.date {
     a {
         font-size: .8rem;
     }
-} 
+}
+
+ul.post-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 8rem;
+}
+
+ul.post-list span {
+    font-family: "Soehne", sans-serif; 
+    font-size: 1.2rem; 
+    color: slategray; 
+    display: inline-block; 
+    min-width: 150px;
+}
+
+h1.home-heading {
+    font-family: "Soehne", sans-serif;
+    font-size: 1.2rem; 
+    margin-bottom: 1rem;
+}
