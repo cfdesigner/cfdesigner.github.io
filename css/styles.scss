@@ -289,14 +289,20 @@ ul.post-list {
 
 ul.post-list span {
     font-family: "Soehne", sans-serif; 
-    font-size: 1.2rem; 
+    font-size: 1rem; 
     color: slategray; 
     display: inline-block; 
     min-width: 150px;
+    @media (min-width: #{$medium-breakpoint}) {
+        font-size: 1.2rem;
+    }
 }
 
 h1.home-heading {
     font-family: "Soehne", sans-serif;
-    font-size: 1.2rem; 
+    font-size: 1rem; 
     margin-bottom: 1rem;
+    @media (min-width: #{$medium-breakpoint}) {
+        font-size: 1.2rem;
+    }
 }
