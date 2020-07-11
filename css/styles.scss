@@ -20,24 +20,6 @@
 }
 
 @font-face {		
-    font-family: 'Heldane Display';			
-    src: url('/fonts/heldane-display-web-medium.woff') format('woff'),
-         url('/fonts/heldane-display-web-medium.woff2') format('woff2'),
-         url('/fonts/heldane-display-web-medium.eot') format('eot');
-    font-weight: 500;		
-    font-style: normal;		
-}
-
-@font-face {		
-    font-family: 'Heldane Display';			
-    src: url('/fonts/heldane-display-web-medium-italic.woff') format('woff'),
-         url('/fonts/heldane-display-web-medium-italic.woff2') format('woff2'),
-         url('/fonts/heldane-display-web-medium-italic.eot') format('eot');
-    font-weight: 500;		
-    font-style: italic;		
-}
-
-@font-face {		
     font-family: 'Soehne';			
     src: url('/fonts/soehne-web-buch.woff') format('woff'),
          url('/fonts/soehne-web-buch.woff2') format('woff2'),
@@ -124,26 +106,7 @@ p, blockquote, ul, ol {
     }
 }
 
-hgroup {
-    @media (min-width: #{$medium-breakpoint}) {
-        width: 200%;
-        margin-left: -50%;
-    }
-}
-
-h1 {
-    font-family: "Heldane Display", serif;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    @media (min-width: #{$medium-breakpoint}) {
-        font-size: 6rem;
-        margin-bottom: 2rem;
-    }
-}
-
-h2, h3 {
+h1, h2, h3 {
     font-family: "Soehne", sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -156,20 +119,9 @@ h2, h3 {
 }
 
 h2.subtitle {
-    font-family: "Heldane Display", serif;
-    font-size: 2rem;
-    line-height: 1.1;
-    font-style: italic;
-    text-transform: lowercase;
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
     color: slategray;
-    @media (min-width: #{$medium-breakpoint}) {
-        font-size: 6rem;
-        margin-left: 5rem;
-        margin-bottom: 3rem;
-        max-width: 45rem;
-    }
 }
 
 span.reading-time {
@@ -188,6 +140,17 @@ p {
 
     + p {
         text-indent: 2rem;
+    }
+}
+
+p.date {
+    font-family: "Soehne", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+    text-indent: 0;
+    @media (min-width: #{$medium-breakpoint}) {
+        font-size: 1.2rem;
     }
 }
 
@@ -261,12 +224,6 @@ figcaption {
     @media (min-width: #{$medium-breakpoint}) {
         font-size: 1.2rem;
     }
-}
-
-
-p.date {
-    margin-top: 2rem;
-    text-indent: 0;
 }
 
 .footnotes{
