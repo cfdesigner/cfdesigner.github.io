@@ -28,11 +28,11 @@ Applied to brand development, pace layering allows us to separate the transient 
 ### Surface
 Surface is where all of the highly visible manifestations of brand live. The things that many (if not most) folks think of when you say that you're working on a branding project. A non-exhaustive list of things here:
 
-- Logo/logotype
-- Colour palette
-- Typography
-- Illustration
-- Iconography
+- logo/logotype
+- colour palette
+- typography
+- illustration
+- iconography
 
 This is the stuff that's tangible. That people can see and touch and manipulate. It can (and does) move and change frequently, acting upon and constrained by the levels below it. It's transient, pliable, and energetic.
 
