@@ -7,6 +7,9 @@ title: Home
 
 <ul class="post-list">
 {% for post in site.posts %}
-    <li><span>{{ post.date | date: "%b %d, %Y" }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li class="grid">
+        <span class="grid__col grid__col--4-of-12">{{ post.date | date: "%b %d, %Y" }}</span>
+        <a href="{{ post.url }}" class="grid__col grid__col--8-of-12">{{ post.title }}</a>
+    </li>
 {% endfor %}
 </ul>
